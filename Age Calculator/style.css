@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: gray;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 800px;
+  height: 500px;
+  background-color: rgb(232, 227, 221);
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 80%;
+  height: 60%;
+  text-align: center;
+  line-height: 80px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.input {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+input {
+  font-size: larger;
+  margin: 10px 0px;
+}
+
+button {
+  text-align: center;
+  font-size: 20px;
+  border-radius: 20px;
+  color: green;
+}
+
+.result {
+  font-size: 30px;
+}
