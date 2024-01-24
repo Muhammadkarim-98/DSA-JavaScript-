@@ -1,4 +1,5 @@
 // BISMILLAH
+// from strivers
 // PATTERN - 1
 function stars(n) {
 	let starBox = "";
